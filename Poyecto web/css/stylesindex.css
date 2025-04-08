@@ -1,0 +1,170 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f6f6f6;
+    color: #585757;
+    line-height: 1.6;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+    
+}
+
+a:hover {
+    color: #a8161a;
+}
+
+header#pri {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #d61f21;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+h2{
+    color: rgb(158, 4, 43);
+}
+nav h1 {
+    font-size: 1.8rem;
+}
+
+#logo {
+    height: 80px;
+    width: auto;
+    border-radius: 5px;
+}
+
+#cab1 ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+#cab1 li {
+    padding: 5px 10px;
+}
+
+#cab1 li a {
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#cab1 li a:hover {
+    color: #cccccc;
+}
+
+article {
+    width: 70%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+article section {
+    margin-bottom: 30px;
+}
+
+article section h2 {
+    border-left: 5px solid #d61f21;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+article section p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+article section img {
+    margin: 10px 10px 10px 0;
+    border: 2px solid #f0f0f0;
+    border-radius: 3px;
+}
+
+aside {
+    width: 25%;
+    margin-left: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    position: sticky; 
+    top: 20px; 
+}
+
+aside nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+aside nav ul li a {
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+aside nav ul li a:hover {
+    color: #d61f21;
+}
+
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer #unju {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+footer div a {
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+footer div a:hover {
+    color: #cccccc;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #cab1 ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    aside {
+        margin: 20px auto;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
