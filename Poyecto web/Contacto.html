@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Contacto</title>
+    <link rel="stylesheet" href="css/stylescontac.css">
 </head>
 <body>
     <header style="background-color:rgb(221, 220, 219)">
@@ -10,10 +11,10 @@
         <h1>Corea del sur</h1>
     </header>
     <div>
-        <h2> Formulario de contacto</h2>
+        <h2 class="second_title"> Formulario de contacto</h2>
     </div>
     <article>
-        <form action="#" method="post">
+        <form class="formulario" action="#" method="post">
             <label>Apellido*</label><br>
             <input type="texto" id="Apellido" required=""><br>
             <label>Nombre*</label><br>
@@ -24,13 +25,26 @@
             <input type="number" id="Telefono" > <br>
             <label>Motivo*</label> <br>
             <textarea id="Motivo" required=""></textarea> <br>
-            <input type="submit" value="Guardar">
+            <input class="botom" type="submit" value="Enviar">
         </form>
     </article>
-    <footer style="background-color: rgb(68, 67, 67);">
+    <footer style="background-color: rgb(56, 55, 55);">
         <div>
             <p>Universidad Nacional de Jujuy</p>
         </div>
+        <div class="enlaces">
+            <span>Enlaces:</span><br>
+            <a href="museos.html"> Museos</a><br>
+            <a href="index.html"> Index</a>
+        </div>
+        <style>
+            a {
+                color: #f4f4f4;
+                text-decoration: none;
+                font-size: 20px;
+                margin: 10px 0;
+            }
+        </style>
     </footer>
 </body>
 </html>
