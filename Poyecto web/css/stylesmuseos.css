@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+}
+    h1{front-size: 1.5em}
+    h2{front-size: 3em;}
+    h3{front-size: 2.5em;}
+    p{front-size: 1.5em;}
+
+    .container{
+        max-width: 1400px;
+        margin: auto;
+    }
+    .color-acento{ color:rgb(17, 76, 164); 
+     }
+    header{
+    background-color: #ebeff1;
+    }
+
+    header .logo{
+    margin: 0;
+    padding:25px 30px;
+    font-weight: bold;
+    color: #545e81;
+    font-size: 1.15em;
+    }
+
+    header.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    #seul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color:rgb(22, 22, 22);
+    background-image:  linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        )
+    , url("img/inicio1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    }
+
+
+
+    #seul h1{
+       font-size: 5em;
+
+
+        color: rgb(16, 35, 59);
+    }  */
+
+    #dim  .container{
+        text-align: center;
+        padding: 200ppx 12px;
+    }
+
+    #museos-Seul .conteiner{
+        padding: 1000px 12px;
+    }
+    #museos-Seul h2{
+        margin-top: 0;
+        font-size: 3em;
+    }
+    #museos-Seul h3{
+        margin-top: 0;
+    }
+    #museos-Seul p{
+        display: none;
+    }
+    #museos-Seul .carta{
+        background-position: center;
+        background-size: cover;
+        padding: 20px;
+        margin: 220px;
+        border-radius: 40px;
+            .carta:nth-child(1){
+            background-image: linear-gradient(
+                    0deg,
+                    rgba(00, 00, 00, 0), 
+                    rgba(00, 00,00, 0)
+                    )
+                , url("img/1.jpg");
+                }
+            .carta:nth-child(2){
+                background-image: linear-gradient(
+                    0deg,
+                    rgba(0, 0, 0, 0.0), 
+                    rgba(0, 0, 0, 0.0)
+                    )
+                , url("img/2.jpg");
+                }
+            .carta:nth-child(3){
+                background-image: linear-gradient(
+                    0deg,
+                    rgba(0, 0, 0, 0), 
+                    rgba(0, 0, 0, 0)
+                    )
+                , url("img/3.jpg");
+                }
+            
+            .carta:nth-child(4){
+                background-image: linear-gradient(
+                    0deg,
+                    rgba(0, 0, 0, 0), 
+                    rgba(0, 0, 0, 0)
+                    )
+                , url("img/4.jpg");
+                }
+            
+    }
+    
+#falsalista1 .container{
+    display: none;
+    text-align: center;
+    padding: 250px 12px;
+}
+#falsalista1 p{
+    margin: 16px 0px;
+font-weight: bold;
+}
+#falsalista2 .container{
+    display: none;
+    text-align: center;
+    padding: 250px 12px;
+}
+#falsalista2 p{
+    margin: 16px 0px;
+font-weight: bold;
+}
+#falsalista3 .container{
+    display: none;
+    text-align: center;
+    padding: 250px 12px;
+}
+#falsalista3 p{
+    margin: 16px 0px;
+font-weight: bold;
+}
+#falsalista4 .container{
+    display: none;
+    text-align: center;
+    padding: 250px 12px;
+}
+#falsalista4 p{
+    margin: 16px 0px;
+font-weight: bold;
+}
+footer{
+    background-color: #c4b7a6;
+}
+footer p{
+    margin: 0;
+    padding: 12px;
+color: rgb (100, 100, 100);
+}
+footer .conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 0px;
+    background-color: #c4b7a6;
+}
